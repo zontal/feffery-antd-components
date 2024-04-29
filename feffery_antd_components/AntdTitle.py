@@ -43,7 +43,7 @@ Keyword arguments:
     是否渲染为键盘形式.
 
 - level (number; default 1):
-    标题级别，可选项有`1`、`2`、`3`、`4`、`5`  默认值：`1`.
+    标题级别，可选项有`1`、`2`、`3`、`4`、`5` 默认值：`1`.
 
 - loading_state (dict; optional)
 
@@ -59,7 +59,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - locale (a value equal to: 'zh-cn', 'en-us'; default 'zh-cn'):
-    组件文案语种，可选项有`'zh-cn'`、`'en-us'`  默认值：`'zh-cn'`.
+    组件文案语种，可选项有`'zh-cn'`、`'en-us'` 默认值：`'zh-cn'`.
 
 - mark (boolean; optional):
     是否渲染为高亮形式.

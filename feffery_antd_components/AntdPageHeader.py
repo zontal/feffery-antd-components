@@ -19,7 +19,7 @@ Keyword arguments:
     `aria-*`格式属性通配.
 
 - backClicks (number; default 0):
-    返回按钮累计点击次数，用于监听返回按钮点击行为  默认值：`0`.
+    返回按钮累计点击次数，用于监听返回按钮点击行为 默认值：`0`.
 
 - className (string | dict; optional):
     当前组件css类名，支持[动态css](/advanced-classname).
@@ -28,10 +28,10 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - ghost (boolean; default False):
-    是否开启透明背景模式  默认值：`False`.
+    是否开启透明背景模式 默认值：`False`.
 
 - historyBackDisabled (boolean; default False):
-    是否禁用点击返回按钮回退上一地址的功能  默认值：`False`.
+    是否禁用点击返回按钮回退上一地址的功能 默认值：`False`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
@@ -50,7 +50,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - showBackIcon (boolean; default True):
-    是否渲染返回按钮  默认值：`True`.
+    是否渲染返回按钮 默认值：`True`.
 
 - style (dict; optional):
     当前组件css样式.

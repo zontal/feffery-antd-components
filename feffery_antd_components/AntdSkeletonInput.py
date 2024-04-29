@@ -13,7 +13,7 @@ Keyword arguments:
     组件唯一id.
 
 - active (boolean; default False):
-    是否显示动画  默认值：`False`.
+    是否显示动画 默认值：`False`.
 
 - aria-* (string; optional):
     `aria-*`格式属性通配.
@@ -41,7 +41,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - size (a value equal to: 'large', 'small', 'default'; default 'default'):
-    输入框占位图尺寸，可选项有`'large'`、`'small'`、`'default'`  默认值：`'default'`.
+    输入框占位图尺寸，可选项有`'large'`、`'small'`、`'default'` 默认值：`'default'`.
 
 - style (dict; optional):
     当前组件css样式."""

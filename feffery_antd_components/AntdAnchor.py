@@ -13,16 +13,16 @@ Keyword arguments:
     组件唯一id.
 
 - affix (boolean; default True):
-    是否开启固定模式  默认值：`True`.
+    是否开启固定模式 默认值：`True`.
 
 - align (a value equal to: 'left', 'right'; default 'right'):
-    锚点位置，可选项有`'left'`、`'right'`  默认值：`'right'`.
+    锚点位置，可选项有`'left'`、`'right'` 默认值：`'right'`.
 
 - aria-* (string; optional):
     `aria-*`格式属性通配.
 
 - bounds (number; default 5):
-    锚点像素边距  默认值：`5`.
+    锚点像素边距 默认值：`5`.
 
 - className (string | dict; optional):
     当前组件css类名，支持[动态css](/advanced-classname).

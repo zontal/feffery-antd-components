@@ -13,7 +13,7 @@ Keyword arguments:
     组件唯一id.
 
 - allowClick (boolean; default False):
-    是否可点击切换步骤  默认值：`False`.
+    是否可点击切换步骤 默认值：`False`.
 
 - aria-* (string; optional):
     `aria-*`格式属性通配.
@@ -22,13 +22,13 @@ Keyword arguments:
     当前组件css类名，支持[动态css](/advanced-classname).
 
 - current (number; default 0):
-    当前所处的步骤序号  默认值：`0`.
+    当前所处的步骤序号 默认值：`0`.
 
 - data-* (string; optional):
     `data-*`格式属性通配.
 
 - direction (a value equal to: 'horizontal', 'vertical'; default 'horizontal'):
-    步骤条显示方向，可选项有`'horizontal'`、`'vertical'`  默认值：`'horizontal'`.
+    步骤条显示方向，可选项有`'horizontal'`、`'vertical'` 默认值：`'horizontal'`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
@@ -50,13 +50,13 @@ Keyword arguments:
         Holds which property is loading.
 
 - progressDot (boolean; default False):
-    是否渲染为点状步骤条  默认值：`False`.
+    是否渲染为点状步骤条 默认值：`False`.
 
 - responsive (boolean; default True):
-    是否在页面宽度小于532px时自动强制垂直显示  默认值：`True`.
+    是否在页面宽度小于532px时自动强制垂直显示 默认值：`True`.
 
 - size (a value equal to: 'default', 'small'; default 'default'):
-    步骤条尺寸规格，可选项有`'default'`、`'small'`  默认值：`'default'`.
+    步骤条尺寸规格，可选项有`'default'`、`'small'` 默认值：`'default'`.
 
 - status (a value equal to: 'wait', 'process', 'finish', 'error'; default 'process'):
     步骤条状态，可选项有`'wait'`、`'process'`、`'finish'`、`'error'`
@@ -89,7 +89,7 @@ Keyword arguments:
     当前组件css样式.
 
 - type (a value equal to: 'default', 'navigation', 'inline'; default 'default'):
-    步骤条类型，可选项有`'default'`、`'navigation'`、`'inline'`  默认值：`'default'`."""
+    步骤条类型，可选项有`'default'`、`'navigation'`、`'inline'` 默认值：`'default'`."""
     _children_props = ['steps[].title', 'steps[].subTitle', 'steps[].description', 'steps[].icon']
     _base_nodes = ['children']
     _namespace = 'feffery_antd_components'

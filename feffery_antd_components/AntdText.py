@@ -34,7 +34,7 @@ Keyword arguments:
     是否渲染为禁用形式.
 
 - ellipsis (dict; default False):
-    配置内容省略相关功能，设置为`False`则不开启  默认值：`False`.
+    配置内容省略相关功能，设置为`False`则不开启 默认值：`False`.
 
     `ellipsis` is a boolean | dict with keys:
 
@@ -64,7 +64,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - locale (a value equal to: 'zh-cn', 'en-us'; default 'zh-cn'):
-    组件文案语种，可选项有`'zh-cn'`、`'en-us'`  默认值：`'zh-cn'`.
+    组件文案语种，可选项有`'zh-cn'`、`'en-us'` 默认值：`'zh-cn'`.
 
 - mark (boolean; optional):
     是否渲染为高亮形式.

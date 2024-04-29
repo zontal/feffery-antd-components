@@ -16,7 +16,7 @@ Keyword arguments:
     组件唯一id.
 
 - addSplitLine (boolean; default False):
-    是否添加分隔线  默认值：`False`.
+    是否添加分隔线 默认值：`False`.
 
 - align (a value equal to: 'start', 'end', 'center', 'baseline'; optional):
     对齐方式，可选项有`'start'`、`'end'`、`'center'`、`'baseline'`.
@@ -42,7 +42,7 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - direction (a value equal to: 'vertical', 'horizontal'; default 'horizontal'):
-    排列方向，可选项有`'vertical'`、`'horizontal'`  默认值：`'horizontal'`.
+    排列方向，可选项有`'vertical'`、`'horizontal'` 默认值：`'horizontal'`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
@@ -76,7 +76,7 @@ Keyword arguments:
         控制子项容器元素css样式.
 
 - wrap (boolean; default False):
-    子元素是否自动换行，仅`direction='horizontal'`时有效  默认值：`False`."""
+    子元素是否自动换行，仅`direction='horizontal'`时有效 默认值：`False`."""
     _children_props = ['customSplit']
     _base_nodes = ['customSplit', 'children']
     _namespace = 'feffery_antd_components'

@@ -25,7 +25,7 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - direction (a value equal to: "horizontal", "vertical"; default 'horizontal'):
-    分割线方向，可选项有`'horizontal'`、`'vertical'`  默认值：`'horizontal'`.
+    分割线方向，可选项有`'horizontal'`、`'vertical'` 默认值：`'horizontal'`.
 
 - fontColor (string; optional):
     内嵌元素字体颜色.
@@ -43,10 +43,10 @@ Keyword arguments:
     内嵌元素字重.
 
 - innerTextOrientation (a value equal to: "left", "center", "right"; default 'center'):
-    内嵌元素对齐方式，可选项有`'left'`、`'center'`、`'right'`  默认值：`'center'`.
+    内嵌元素对齐方式，可选项有`'left'`、`'center'`、`'right'` 默认值：`'center'`.
 
 - isDashed (boolean; default False):
-    是否渲染为虚线形式  默认值：`False`.
+    是否渲染为虚线形式 默认值：`False`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.

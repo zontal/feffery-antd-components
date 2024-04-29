@@ -28,7 +28,7 @@ Keyword arguments:
 - extra (a list of or a singular dash component, string or number; optional)
 
 - hasFeedback (boolean; default False):
-    是否配合不同的validateStatus值，呈现对应的状态图标，建议仅用于AntdInput  默认：False.
+    是否配合不同的validateStatus值，呈现对应的状态图标，建议仅用于AntdInput 默认：False.
 
 - help (a list of or a singular dash component, string or number; optional)
 

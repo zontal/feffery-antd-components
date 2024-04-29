@@ -28,7 +28,7 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - duration (number; default 0.45):
-    回到顶部过程耗时，单位：秒  默认值：`0.45`.
+    回到顶部过程耗时，单位：秒 默认值：`0.45`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
@@ -50,7 +50,7 @@ Keyword arguments:
     当前组件css样式.
 
 - visibilityHeight (number; default 400):
-    回到顶部按钮显示时对应的页面滚动像素高度阈值  默认值：`400`."""
+    回到顶部按钮显示时对应的页面滚动像素高度阈值 默认值：`400`."""
     _children_props = []
     _base_nodes = ['children']
     _namespace = 'feffery_antd_components'

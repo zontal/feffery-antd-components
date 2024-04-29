@@ -19,7 +19,7 @@ Keyword arguments:
     `aria-*`格式属性通配.
 
 - block (boolean; default False):
-    是否渲染为块级元素（宽度撑满父容器）  默认值：`False`.
+    是否渲染为块级元素（宽度撑满父容器） 默认值：`False`.
 
 - className (string | dict; optional):
     当前组件css类名，支持[动态css](/advanced-classname).
@@ -28,7 +28,7 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - direction (a value equal to: 'vertical', 'horizontal'; default 'horizontal'):
-    排列方向，可选项有`'vertical'`、`'horizontal'`  默认值：`'horizontal'`.
+    排列方向，可选项有`'vertical'`、`'horizontal'` 默认值：`'horizontal'`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.

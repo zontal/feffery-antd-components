@@ -13,13 +13,13 @@ Keyword arguments:
     组件唯一id.
 
 - active (boolean; default False):
-    是否显示动画  默认值：`False`.
+    是否显示动画 默认值：`False`.
 
 - aria-* (string; optional):
     `aria-*`格式属性通配.
 
 - block (boolean; default False):
-    是否撑满父容器  默认值：`False`.
+    是否撑满父容器 默认值：`False`.
 
 - className (string | dict; optional):
     当前组件css类名，支持[动态css](/advanced-classname).
@@ -44,10 +44,10 @@ Keyword arguments:
         Holds which property is loading.
 
 - shape (a value equal to: 'circle', 'round', 'default'; default 'default'):
-    按钮占位图形状，可选项有`'circle'`、`'round'`、`'default'`  默认值：`'default'`.
+    按钮占位图形状，可选项有`'circle'`、`'round'`、`'default'` 默认值：`'default'`.
 
 - size (a value equal to: 'large', 'small', 'default'; default 'default'):
-    按钮占位图尺寸，可选项有`'large'`、`'small'`、`'default'`  默认值：`'default'`.
+    按钮占位图尺寸，可选项有`'large'`、`'small'`、`'default'` 默认值：`'default'`.
 
 - style (dict; optional):
     当前组件css样式."""

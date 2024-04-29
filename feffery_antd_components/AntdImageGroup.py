@@ -44,10 +44,10 @@ Keyword arguments:
         Holds which property is loading.
 
 - locale (a value equal to: 'zh-cn', 'en-us'; default 'zh-cn'):
-    设置语言环境，可选的有'zh-cn'、'en-us'  默认：'zh-cn'.
+    设置语言环境，可选的有'zh-cn'、'en-us' 默认：'zh-cn'.
 
 - preview (dict; default True):
-    配置图片预览相关功能，传入False时会禁用预览功能  默认：True.
+    配置图片预览相关功能，传入False时会禁用预览功能 默认：True.
 
     `preview` is a boolean | dict with keys:
 

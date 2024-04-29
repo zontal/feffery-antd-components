@@ -38,7 +38,7 @@ Keyword arguments:
     设置或监听当前悬浮按钮组展开状态.
 
 - shape (a value equal to: 'circle', 'square'; default 'circle'):
-    内部各悬浮按钮形状，可选项有`'circle'`、`'square'`  默认值：`'circle'`.
+    内部各悬浮按钮形状，可选项有`'circle'`、`'square'` 默认值：`'circle'`.
 
 - style (dict; optional):
     当前组件css样式.

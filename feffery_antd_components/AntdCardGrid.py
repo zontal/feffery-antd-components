@@ -41,7 +41,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - nClicks (number; default 0):
-    监听当前卡片网格累计点击次数  默认：0.
+    监听当前卡片网格累计点击次数 默认：0.
 
 - style (dict; optional)"""
     _children_props = []

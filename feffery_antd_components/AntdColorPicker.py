@@ -12,13 +12,13 @@ Keyword arguments:
 - id (string; optional)
 
 - allowClear (boolean; default False):
-    是否允许清除已选颜色  默认：False.
+    是否允许清除已选颜色 默认：False.
 
 - aria-* (string; optional):
     `aria-*`格式属性通配.
 
 - arrow (dict; optional):
-    配置颜色选择面板附带的箭头  默认：True.
+    配置颜色选择面板附带的箭头 默认：True.
 
     `arrow` is a boolean | dict with keys:
 
@@ -31,13 +31,13 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - disabled (boolean; default False):
-    是否禁用当前组件  默认：False.
+    是否禁用当前组件 默认：False.
 
 - disabledAlpha (boolean; default True):
-    是否禁用透明度选择  默认：True.
+    是否禁用透明度选择 默认：True.
 
 - format (a value equal to: 'rgb', 'hex', 'hsb'; default 'hex'):
-    设置或监听当前的颜色格式，可选的有'rgb'、'hex'、'hsb'  默认：'hex'.
+    设置或监听当前的颜色格式，可选的有'rgb'、'hex'、'hsb' 默认：'hex'.
 
 - key (string; optional)
 
@@ -55,7 +55,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - name (string; optional):
-    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名  缺省时会以id作为字段名.
+    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名 缺省时会以id作为字段名.
 
 - open (boolean; optional):
     设置或监听当前颜色选择面板展开状态.
@@ -79,18 +79,18 @@ Keyword arguments:
         当前项的标签内容.
 
 - showText (boolean; default False):
-    是否显示颜色值文本  默认：False.
+    是否显示颜色值文本 默认：False.
 
 - size (a value equal to: 'large', 'middle', 'small'; default 'middle'):
-    设置触发器尺寸规格，可选的有'large'、'middle'、'small'  默认：'middle'.
+    设置触发器尺寸规格，可选的有'large'、'middle'、'small' 默认：'middle'.
 
 - style (dict; optional)
 
 - trigger (a value equal to: 'hover', 'click'; default 'click'):
-    设置颜色选择面板触发方式，可选的有'hover'、'click'  默认：'click'.
+    设置颜色选择面板触发方式，可选的有'hover'、'click' 默认：'click'.
 
 - value (string; default '#1677ff'):
-    设置或监听当前选中的颜色值  默认：'#1677FF'."""
+    设置或监听当前选中的颜色值 默认：'#1677FF'."""
     _children_props = ['presets[].label']
     _base_nodes = ['children']
     _namespace = 'feffery_antd_components'

@@ -47,7 +47,7 @@ Keyword arguments:
         节点前缀图标名称，与`iconRenderer`方式相关联，`'AntdIcon'`方式下同AntdIcon的icon参数，`'fontawesome'`方式下代表图标的css类名.
 
     - iconRenderer (a value equal to: 'AntdIcon', 'fontawesome'; optional):
-        前缀图标渲染方式，可选项有`'AntdIcon'`、`'fontawesome'`  默认值：`'AntdIcon'`.
+        前缀图标渲染方式，可选项有`'AntdIcon'`、`'fontawesome'` 默认值：`'AntdIcon'`.
 
     - key (string; optional):
         节点唯一key值.
@@ -71,7 +71,7 @@ Keyword arguments:
 
         - iconRenderer (a value equal to: 'AntdIcon', 'fontawesome'; optional):
 
-            前缀图标渲染方式，可选项有`'AntdIcon'`、`'fontawesome'`  默认值：`'AntdIcon'`.
+            前缀图标渲染方式，可选项有`'AntdIcon'`、`'fontawesome'` 默认值：`'AntdIcon'`.
 
         - target (string; optional):
 
@@ -104,7 +104,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - separator (a list of or a singular dash component, string or number; default '/'):
-    组件型，分隔符  默认值：`'/'`.
+    组件型，分隔符 默认值：`'/'`.
 
 - style (dict; optional):
     当前组件css样式."""

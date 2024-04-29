@@ -15,7 +15,7 @@ Keyword arguments:
     `aria-*`格式属性通配.
 
 - arrow (dict; default True):
-    配置各引导步骤弹框的箭头  默认：True.
+    配置各引导步骤弹框的箭头 默认：True.
 
     `arrow` is a boolean | dict with keys:
 
@@ -48,7 +48,7 @@ Keyword arguments:
 - locale (a value equal to: 'zh-cn', 'en-us'; default 'zh-cn')
 
 - mask (dict; default True):
-    为各引导步骤条设置蒙版层相关配置  默认：True.
+    为各引导步骤条设置蒙版层相关配置 默认：True.
 
     `mask` is a boolean | dict with keys:
 
@@ -59,7 +59,7 @@ Keyword arguments:
         设置蒙版层css样式.
 
 - open (boolean; default False):
-    设置或监听当前漫游式引导的开关状态  默认：False.
+    设置或监听当前漫游式引导的开关状态 默认：False.
 
 - placement (a value equal to: 'center', 'left', 'leftTop', 'leftBottom', 'right', 'rightTop', 'rightBottom', 'top', 'topLeft', 'topRight', 'bottom', 'bottomLeft', 'bottomRight'; default 'bottom'):
     设置各引导步骤弹框相对于目标元素的位置
@@ -68,12 +68,12 @@ Keyword arguments:
     默认：'bottom'.
 
 - steps (list of dicts; optional):
-    用于定义各引导步骤，其中当targetId、targetSelector  默认：[].
+    用于定义各引导步骤，其中当targetId、targetSelector 默认：[].
 
     `steps` is a list of dicts with keys:
 
     - arrow (dict; optional):
-        配置当前引导步骤弹框的箭头  默认：True.
+        配置当前引导步骤弹框的箭头 默认：True.
 
         `arrow` is a boolean
 
@@ -90,7 +90,7 @@ Keyword arguments:
         设置当前引导步骤弹框的描述内容.
 
     - mask (dict; optional):
-        为当前引导步骤设置蒙版层相关配置  默认：True.
+        为当前引导步骤设置蒙版层相关配置 默认：True.
 
         `mask` is a boolean | dict with keys:
 
@@ -133,15 +133,15 @@ Keyword arguments:
         设置当前引导步骤弹框的标题.
 
     - type (a value equal to: 'default', 'primary'; optional):
-        设置当前引导步骤弹框类型，可选的有'default'、'primary'  默认：'default'.
+        设置当前引导步骤弹框类型，可选的有'default'、'primary' 默认：'default'.
 
 - style (dict; optional)
 
 - type (a value equal to: 'default', 'primary'; default 'default'):
-    为各引导步骤弹框设置类型，可选的有'default'、'primary'  默认：'default'.
+    为各引导步骤弹框设置类型，可选的有'default'、'primary' 默认：'default'.
 
 - zIndex (number; default 1001):
-    设置当前漫游式引导的z-index  默认：1001."""
+    设置当前漫游式引导的z-index 默认：1001."""
     _children_props = ['steps[].cover', 'steps[].title', 'steps[].description', 'steps[].nextButtonProps.children', 'steps[].prevButtonProps.children']
     _base_nodes = ['children']
     _namespace = 'feffery_antd_components'

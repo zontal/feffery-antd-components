@@ -27,7 +27,7 @@ Keyword arguments:
 - batchPropsValues (dict; optional)
 
 - bordered (boolean; default True):
-    设置是否渲染边框，设置为True时等价于variant='outlined'  默认：True.
+    设置是否渲染边框，设置为True时等价于variant='outlined' 默认：True.
 
 - className (string | dict; optional)
 
@@ -56,7 +56,7 @@ Keyword arguments:
 
 - listHeight (number; default 256)
 
-- loadingEmptyContent (a list of or a singular dash component, string or number; default <div style={{ display: 'flex', 'justifyContent': 'center' }}>    <Spin /></div>)
+- loadingEmptyContent (a list of or a singular dash component, string or number; default <div style={{ display: 'flex', 'justifyContent': 'center' }}>    <Spin /></div>)
 
 - loading_state (dict; optional)
 
@@ -78,7 +78,7 @@ Keyword arguments:
 - mode (a value equal to: 'multiple', 'tags'; optional)
 
 - name (string; optional):
-    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名  缺省时会以id作为字段名.
+    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名 缺省时会以id作为字段名.
 
 - optionFilterMode (a value equal to: 'case-insensitive', 'case-sensitive', 'regex'; default 'case-insensitive')
 
@@ -114,22 +114,22 @@ Keyword arguments:
 
 - persisted_props (list of a value equal to: 'value's; default ['value']):
     Properties whose user interactions will persist after refreshing
-    the  component or the page. Since only `value` is allowed this
-    prop can  normally be ignored.
+    the component or the page. Since only `value` is allowed this prop
+    can normally be ignored.
 
 - persistence (boolean | string | number; optional):
     Used to allow user interactions in this component to be persisted
-    when  the component - or the page - is refreshed. If `persisted`
-    is truthy and  hasn't changed from its previous value, a `value`
-    that the user has  changed while using the app will keep that
-    change, as long as  the new `value` also matches what was given
-    originally.  Used in conjunction with `persistence_type`.
+    when the component - or the page - is refreshed. If `persisted` is
+    truthy and hasn't changed from its previous value, a `value` that
+    the user has changed while using the app will keep that change, as
+    long as the new `value` also matches what was given originally.
+    Used in conjunction with `persistence_type`.
 
 - persistence_type (a value equal to: 'local', 'session', 'memory'; default 'local'):
-    Where persisted user changes will be stored:  memory: only kept in
-    memory, reset on page refresh.  local: window.localStorage, data
-    is kept after the browser quit.  session: window.sessionStorage,
-    data is cleared once the browser quit.
+    Where persisted user changes will be stored: memory: only kept in
+    memory, reset on page refresh. local: window.localStorage, data is
+    kept after the browser quit. session: window.sessionStorage, data
+    is cleared once the browser quit.
 
 - placeholder (string; optional)
 
@@ -141,7 +141,7 @@ Keyword arguments:
 - popupContainer (a value equal to: 'parent', 'body'; default 'body')
 
 - popupMatchSelectWidth (boolean; default True):
-    设置下拉菜单是否与选择框同款，设置为False时将关闭虚拟滚动功能  默认：True.
+    设置下拉菜单是否与选择框同款，设置为False时将关闭虚拟滚动功能 默认：True.
 
 - readOnly (boolean; optional)
 

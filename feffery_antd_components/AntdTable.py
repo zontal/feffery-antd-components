@@ -112,7 +112,7 @@ Keyword arguments:
 
     - filterResetToDefaultFilteredValue (boolean; optional):
         若当前字段通过defaultFilteredValues设置了初始化默认选中筛选值，
-        用于设置是否在用户点击重置按钮后恢复默认选中筛选项  默认：False.
+        用于设置是否在用户点击重置按钮后恢复默认选中筛选项 默认：False.
 
     - fixed (a value equal to: 'left', 'right'; optional)
 
@@ -563,7 +563,7 @@ Keyword arguments:
 - selectedRowsSyncWithData (boolean; default False)
 
 - showHeader (boolean; default True):
-    是否显示表头  默认：True.
+    是否显示表头 默认：True.
 
 - size (a value equal to: 'small', 'middle', 'large'; default 'middle')
 
@@ -612,7 +612,7 @@ Keyword arguments:
 - summaryRowFixed (boolean; default False)
 
 - tableLayout (a value equal to: 'auto', 'fixed'; optional):
-    当columns中各字段未设置width时，用于控制字段布局方式  可选的有'auto'、'fixed'.
+    当columns中各字段未设置width时，用于控制字段布局方式 可选的有'auto'、'fixed'.
 
 - title (a list of or a singular dash component, string or number; optional):
     自定义整体标题内容.
@@ -631,7 +631,7 @@ Keyword arguments:
     - title (string; optional)
 
 - virtual (boolean; default False):
-    是否开启虚拟滚动模式  默认：False."""
+    是否开启虚拟滚动模式 默认：False."""
     _children_props = ['columns[].title', 'data[]{}', 'summaryRowContents[].content', 'expandedRowKeyToContent[].content', 'emptyContent', 'title', 'footer']
     _base_nodes = ['emptyContent', 'title', 'footer', 'children']
     _namespace = 'feffery_antd_components'

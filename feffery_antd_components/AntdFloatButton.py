@@ -47,22 +47,22 @@ Keyword arguments:
         Holds which property is loading.
 
 - nClicks (number; default 0):
-    按钮累计点击次数，用于监听按钮点击行为  默认值：`0`.
+    按钮累计点击次数，用于监听按钮点击行为 默认值：`0`.
 
 - shape (a value equal to: 'circle', 'square'; default 'circle'):
-    按钮形状，可选项有`'circle'`、`'square'`  默认值：`'circle'`.
+    按钮形状，可选项有`'circle'`、`'square'` 默认值：`'circle'`.
 
 - style (dict; optional):
     当前组件css样式.
 
 - target (string; default '_blank'):
-    按钮点击跳转链接方式  默认值：`'_blank'`.
+    按钮点击跳转链接方式 默认值：`'_blank'`.
 
 - tooltip (a list of or a singular dash component, string or number; optional):
     组件型，按钮额外气泡卡片内容.
 
 - type (a value equal to: 'default', 'primary'; default 'default'):
-    按钮类型，可选项有`'default'`、`'primary'`  默认值：`'default'`."""
+    按钮类型，可选项有`'default'`、`'primary'` 默认值：`'default'`."""
     _children_props = ['icon', 'description', 'tooltip']
     _base_nodes = ['icon', 'description', 'tooltip', 'children']
     _namespace = 'feffery_antd_components'

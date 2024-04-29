@@ -29,7 +29,7 @@ Keyword arguments:
 - batchPropsValues (dict; optional)
 
 - bordered (boolean; default True):
-    设置是否渲染边框，设置为True时等价于variant='outlined'  默认：True.
+    设置是否渲染边框，设置为True时等价于variant='outlined' 默认：True.
 
 - className (string | dict; optional)
 
@@ -56,7 +56,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - name (string; optional):
-    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名  缺省时会以id作为字段名.
+    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名 缺省时会以id作为字段名.
 
 - options (list of dicts; required)
 

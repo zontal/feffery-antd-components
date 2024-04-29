@@ -25,10 +25,10 @@ Keyword arguments:
     当前组件css类名，支持[动态css](/advanced-classname).
 
 - closable (boolean; default True):
-    是否显示右上角的关闭按钮  默认值：`True`.
+    是否显示右上角的关闭按钮 默认值：`True`.
 
 - closeIconType (a value equal to: 'default', 'outlined', 'two-tone'; default 'default'):
-    关闭按钮类型，可选项有`'default'`、`'outlined'`、`'two-tone'`  默认值：`'default'`.
+    关闭按钮类型，可选项有`'default'`、`'outlined'`、`'two-tone'` 默认值：`'default'`.
 
 - data-* (string; optional):
     `data-*`格式属性通配.
@@ -37,7 +37,7 @@ Keyword arguments:
     顶部可拖拽区域css类名.
 
 - draggable (boolean; default False):
-    是否可拖拽  默认值：`False`.
+    是否可拖拽 默认值：`False`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
@@ -66,13 +66,13 @@ Keyword arguments:
     默认值：`'zoom'`.
 
 - visible (boolean; default True):
-    设置或监听当前弹出式卡片是否显示  默认值：`True`.
+    设置或监听当前弹出式卡片是否显示 默认值：`True`.
 
 - width (number | string; optional):
     弹出式卡片像素宽度.
 
 - zIndex (number; default 1000):
-    弹出式卡片z-index  默认值：`1000`."""
+    弹出式卡片z-index 默认值：`1000`."""
     _children_props = ['title']
     _base_nodes = ['title', 'children']
     _namespace = 'feffery_antd_components'

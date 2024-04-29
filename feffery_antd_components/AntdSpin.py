@@ -25,17 +25,17 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - debug (boolean; default False):
-    是否开启debug模式，开启后，每次动画加载都会在开发者工具的控制台打印相关`prop`信息  默认值：`False`.
+    是否开启debug模式，开启后，每次动画加载都会在开发者工具的控制台打印相关`prop`信息 默认值：`False`.
 
 - delay (number; optional):
-    加载动画渲染延时，单位：毫秒  默认值：`0`.
+    加载动画渲染延时，单位：毫秒 默认值：`0`.
 
 - excludeProps (list of strings; optional):
     `listenPropsMode='exclude'`时，设置需要排除监听的回调目标列表，格式如`['组件id1.组件属性1',
     '组件id2.组件属性2', ...]`.
 
 - fullscreen (boolean; default False):
-    是否开启全屏模式  默认值：`False`.
+    是否开启全屏模式 默认值：`False`.
 
 - includeProps (list of strings; optional):
     `listenPropsMode='include'`时，设置需要包含监听的回调目标列表，格式如`['组件id1.组件属性1',
@@ -48,7 +48,7 @@ Keyword arguments:
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
 
 - listenPropsMode (a value equal to: 'default', 'exclude', 'include'; default 'default'):
-    监听模式，可选项有`'default'`、`'exclude'`、`'include'`  默认值：`'default'`.
+    监听模式，可选项有`'default'`、`'exclude'`、`'include'` 默认值：`'default'`.
 
 - loading_state (dict; optional)
 
@@ -64,7 +64,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - size (a value equal to: 'small', 'middle', 'large'; default 'middle'):
-    默认加载状态图标的尺寸，可选项有`'small'`、`'middle'`、`'large'`  默认值：`'middle'`.
+    默认加载状态图标的尺寸，可选项有`'small'`、`'middle'`、`'large'` 默认值：`'middle'`.
 
 - spinning (boolean; default False):
     是否处于加载中状态.

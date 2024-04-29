@@ -20,7 +20,7 @@ Keyword arguments:
     默认值：`'default'`.
 
 - compatibilityMode (boolean; default False):
-    是否开启针对`88`及以下版本`Chromium`内核浏览器的向下兼容模式  默认值：`False`.
+    是否开启针对`88`及以下版本`Chromium`内核浏览器的向下兼容模式 默认值：`False`.
 
 - componentDisabled (boolean; optional):
     是否针后代元素中的所有组件强制设置禁用状态.
@@ -35,7 +35,7 @@ Keyword arguments:
     type dict with keys:
 
     - algorithm (boolean; optional):
-        是否开启派生样式自动推导运算  默认值：`False`.
+        是否开启派生样式自动推导运算 默认值：`False`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
@@ -65,13 +65,13 @@ Keyword arguments:
     `token` is a dict with keys:
 
     - motion (boolean; optional):
-        是否开启动画效果  默认值：`True`.
+        是否开启动画效果 默认值：`True`.
 
 - useOldTheme (a value equal to: 'default', 'dark'; optional):
     是否强制使用`0.3.x`版本之前的主题样式，可选项有`'default'`、`'dark'`.
 
 - wavesDisabled (boolean; default False):
-    是否禁用内部组件水波纹动效  默认值：`False`."""
+    是否禁用内部组件水波纹动效 默认值：`False`."""
     _children_props = []
     _base_nodes = ['children']
     _namespace = 'feffery_antd_components'

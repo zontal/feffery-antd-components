@@ -47,7 +47,7 @@ Keyword arguments:
         设置像素宽度数值，或css宽度字符串.
 
 - expandable (boolean; default True):
-    面板是否可展开  默认值：`True`.
+    面板是否可展开 默认值：`True`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
@@ -78,7 +78,7 @@ Keyword arguments:
     面板最小像素宽度.
 
 - mode (a value equal to: 'fixed', 'float'; default 'fixed'):
-    设置面板模式，可选项有`'fixed'`（固定模式）、`'float'`（浮动窗口模式）  默认值：`'fixed'`.
+    设置面板模式，可选项有`'fixed'`（固定模式）、`'float'`（浮动窗口模式） 默认值：`'fixed'`.
 
 - placement (a value equal to: 'right', 'left', 'top', 'bottom'; default 'right'):
     固定模式下，用于设置面板朝向，可选项有`'right'`、`'left'`、`'top'`、`'bottom'`

@@ -112,7 +112,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - locale (a value equal to: 'zh-CN', 'en-US'; default 'zh-CN'):
-    设置展示语言，目前只支持中文、英文，  可选的有'zh-CN'与'en-US'，默认为'zh-CN'.
+    设置展示语言，目前只支持中文、英文， 可选的有'zh-CN'与'en-US'，默认为'zh-CN'.
 
 - maxWidth (number; optional):
     设置表单项控件的最大宽度.

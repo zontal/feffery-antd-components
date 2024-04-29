@@ -16,7 +16,7 @@ Keyword arguments:
     组件唯一id.
 
 - align (a value equal to: 'top', 'middle', 'bottom'; default 'top'):
-    竖直方向对齐方式，可选项有`'top'`、`'middle'`、`'bottom'`  默认值：`'top'`.
+    竖直方向对齐方式，可选项有`'top'`、`'middle'`、`'bottom'` 默认值：`'top'`.
 
 - aria-* (string; optional):
     `aria-*`格式属性通配.
@@ -74,7 +74,7 @@ Keyword arguments:
     当前组件css样式.
 
 - wrap (boolean; default True):
-    是否允许自动换行  默认值：`True`."""
+    是否允许自动换行 默认值：`True`."""
     _children_props = []
     _base_nodes = ['children']
     _namespace = 'feffery_antd_components'

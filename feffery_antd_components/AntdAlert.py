@@ -19,13 +19,13 @@ Keyword arguments:
     `aria-*`格式属性通配.
 
 - banner (boolean; default False):
-    是否用作顶部公告  默认值：`False`.
+    是否用作顶部公告 默认值：`False`.
 
 - className (string | dict; optional):
     当前组件css类名，支持[动态css](/advanced-classname).
 
 - closable (boolean; default False):
-    是否可关闭  默认值：`False`.
+    是否可关闭 默认值：`False`.
 
 - data-* (string; optional):
     `data-*`格式属性通配.
@@ -53,10 +53,10 @@ Keyword arguments:
     主要提示信息内容.
 
 - messageRenderMode (a value equal to: 'default', 'loop-text', 'marquee'; default 'default'):
-    渲染模式，可选项有`'default'`、`'loop-text'`、`'marquee'`  默认值：`'default'`.
+    渲染模式，可选项有`'default'`、`'loop-text'`、`'marquee'` 默认值：`'default'`.
 
 - showIcon (boolean; default False):
-    是否显示额外图标  默认值：`False`.
+    是否显示额外图标 默认值：`False`.
 
 - style (dict; optional):
     当前组件css样式.

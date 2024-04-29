@@ -15,7 +15,7 @@ Keyword arguments:
     `aria-*`格式属性通配.
 
 - checked (boolean; default False):
-    设置或监听当前标签的选择状态  默认：False.
+    设置或监听当前标签的选择状态 默认：False.
 
 - checkedContent (a list of or a singular dash component, string or number; optional)
 

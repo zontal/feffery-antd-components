@@ -19,7 +19,7 @@ Keyword arguments:
 - batchPropsValues (dict; optional)
 
 - bordered (boolean; default True):
-    设置是否渲染边框，设置为True时等价于variant='outlined'  默认：True.
+    设置是否渲染边框，设置为True时等价于variant='outlined' 默认：True.
 
 - breakpoints (list of numbers; required)
 

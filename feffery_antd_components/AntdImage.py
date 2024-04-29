@@ -45,7 +45,7 @@ Keyword arguments:
 - multiImageMode (a value equal to: 'fold', 'unfold'; default 'fold')
 
 - preview (dict; default True):
-    配置图片预览相关功能，传入False时会禁用预览功能  默认：True.
+    配置图片预览相关功能，传入False时会禁用预览功能 默认：True.
 
     `preview` is a boolean | dict with keys:
 

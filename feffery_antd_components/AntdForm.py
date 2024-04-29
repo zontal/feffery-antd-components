@@ -26,7 +26,7 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - enableBatchControl (boolean; default False):
-    是否启用表单批量控制功能，开启后会导致部分性能的损耗  默认值：`False`.
+    是否启用表单批量控制功能，开启后会导致部分性能的损耗 默认值：`False`.
 
 - helps (dict with strings as keys and values of type a list of or a singular dash component, string or number; optional):
     `enableBatchControl=True`时，可用于统一设置内部各AntdFormItem的help值，键为对应AntdFormItem的label值

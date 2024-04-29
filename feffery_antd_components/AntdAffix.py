@@ -44,7 +44,7 @@ Keyword arguments:
     触发固钉效果的视窗底部距离像素阈值.
 
 - offsetTop (number; default 0):
-    触发固钉效果的视窗顶部距离像素阈值  默认值：`0`.
+    触发固钉效果的视窗顶部距离像素阈值 默认值：`0`.
 
 - style (dict; optional):
     当前组件css样式.

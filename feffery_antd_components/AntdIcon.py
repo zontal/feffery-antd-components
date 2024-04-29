@@ -22,7 +22,7 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - debounceWait (number; default 0):
-    图标点击事件监听防抖延时，单位：毫秒  默认值：`0`.
+    图标点击事件监听防抖延时，单位：毫秒 默认值：`0`.
 
 - icon (string; optional):
     图标名称.
@@ -44,7 +44,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - nClicks (number; default 0):
-    图标累计点击次数，用于监听图标点击行为  默认值：`0`.
+    图标累计点击次数，用于监听图标点击行为 默认值：`0`.
 
 - style (dict; optional):
     当前组件css样式."""

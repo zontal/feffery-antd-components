@@ -78,7 +78,7 @@ Keyword arguments:
         Holds which property is loading.
 
 - nClicks (number; default 0):
-    监听当前卡片累计点击次数  默认：0.
+    监听当前卡片累计点击次数 默认：0.
 
 - size (a value equal to: 'default', 'small'; default 'default')
 

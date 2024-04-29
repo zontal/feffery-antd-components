@@ -25,13 +25,13 @@ Keyword arguments:
     默认已输入值.
 
 - disabled (boolean; default False):
-    是否禁用当前组件  默认值：`False`.
+    是否禁用当前组件 默认值：`False`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
 
 - length (number; default 6):
-    可输入元素长度  默认值：`6`.
+    可输入元素长度 默认值：`6`.
 
 - loading_state (dict; optional)
 
@@ -47,29 +47,29 @@ Keyword arguments:
         Holds which property is loading.
 
 - name (string; optional):
-    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名  缺省时会以id作为字段名.
+    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名 缺省时会以id作为字段名.
 
 - persisted_props (list of a value equal to: 'value's; default ['value']):
     Properties whose user interactions will persist after refreshing
-    the  component or the page. Since only `value` is allowed this
-    prop can  normally be ignored.
+    the component or the page. Since only `value` is allowed this prop
+    can normally be ignored.
 
 - persistence (boolean | string | number; optional):
     Used to allow user interactions in this component to be persisted
-    when  the component - or the page - is refreshed. If `persisted`
-    is truthy and  hasn't changed from its previous value, a `value`
-    that the user has  changed while using the app will keep that
-    change, as long as  the new `value` also matches what was given
-    originally.  Used in conjunction with `persistence_type`.
+    when the component - or the page - is refreshed. If `persisted` is
+    truthy and hasn't changed from its previous value, a `value` that
+    the user has changed while using the app will keep that change, as
+    long as the new `value` also matches what was given originally.
+    Used in conjunction with `persistence_type`.
 
 - persistence_type (a value equal to: 'local', 'session', 'memory'; default 'local'):
-    Where persisted user changes will be stored:  memory: only kept in
-    memory, reset on page refresh.  local: window.localStorage, data
-    is kept after the browser quit.  session: window.sessionStorage,
-    data is cleared once the browser quit.
+    Where persisted user changes will be stored: memory: only kept in
+    memory, reset on page refresh. local: window.localStorage, data is
+    kept after the browser quit. session: window.sessionStorage, data
+    is cleared once the browser quit.
 
 - size (a value equal to: 'small', 'middle', 'large'; default 'middle'):
-    尺寸规格，可选项有`'small'`、`'middle'`、`'large'`  默认值：`'middle'`.
+    尺寸规格，可选项有`'small'`、`'middle'`、`'large'` 默认值：`'middle'`.
 
 - status (a value equal to: 'error', 'warning'; optional):
     校验状态，可选项有`'error'`、`'warning'`.
@@ -81,7 +81,7 @@ Keyword arguments:
     监听或设置已输入值.
 
 - variant (a value equal to: 'outlined', 'borderless', 'filled'; default 'outlined'):
-    形态变体，可选项有`'outlined'`、`'borderless'`、`'filled'`  默认值：`'outlined'`."""
+    形态变体，可选项有`'outlined'`、`'borderless'`、`'filled'` 默认值：`'outlined'`."""
     _children_props = []
     _base_nodes = ['children']
     _namespace = 'feffery_antd_components'

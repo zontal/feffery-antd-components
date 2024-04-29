@@ -161,7 +161,7 @@ Keyword arguments:
 - locale (a value equal to: 'zh-cn', 'en-us'; default 'zh-cn')
 
 - name (string; optional):
-    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名  缺省时会以id作为字段名.
+    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名 缺省时会以id作为字段名.
 
 - progressProps (dict; optional)
 

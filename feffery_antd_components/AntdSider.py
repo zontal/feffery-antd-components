@@ -25,13 +25,13 @@ Keyword arguments:
     当前组件css类名，支持[动态css](/advanced-classname).
 
 - collapsed (boolean; default False):
-    当前是否收起  默认值：`False`.
+    当前是否收起 默认值：`False`.
 
 - collapsedWidth (number; default 80):
-    收起后呈现的像素宽度，设置为0时会额外渲染特殊触发组件  默认值：`80`.
+    收起后呈现的像素宽度，设置为0时会额外渲染特殊触发组件 默认值：`80`.
 
 - collapsible (boolean; default False):
-    是否可收起  默认值：`False`.
+    是否可收起 默认值：`False`.
 
 - data-* (string; optional):
     `data-*`格式属性通配.
@@ -56,19 +56,19 @@ Keyword arguments:
         Holds which property is loading.
 
 - reverseArrow (boolean; default False):
-    是否翻转收起箭头的方向，通常在Sider位于右侧时使用  默认值：`False`.
+    是否翻转收起箭头的方向，通常在Sider位于右侧时使用 默认值：`False`.
 
 - style (dict; optional):
     当前组件css样式.
 
 - theme (a value equal to: 'light', 'dark'; default 'dark'):
-    主题，可选项有`'light'`、`'dark'`  默认值：`'dark'`.
+    主题，可选项有`'light'`、`'dark'` 默认值：`'dark'`.
 
 - trigger (a list of or a singular dash component, string or number; optional):
     设置为`None`时不渲染自带的特殊触发组件.
 
 - width (number | string; default 200):
-    侧边栏像素宽度  默认值：`200`."""
+    侧边栏像素宽度 默认值：`200`."""
     _children_props = ['trigger']
     _base_nodes = ['trigger', 'children']
     _namespace = 'feffery_antd_components'

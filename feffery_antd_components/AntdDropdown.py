@@ -19,19 +19,19 @@ Keyword arguments:
     `aria-*`格式属性通配.
 
 - arrow (boolean; default False):
-    下拉菜单是否渲染指示箭头  默认值：`False`.
+    下拉菜单是否渲染指示箭头 默认值：`False`.
 
 - autoAdjustOverflow (boolean; default True):
-    下拉菜单是否在被遮挡时自动调整位置  默认值：`True`.
+    下拉菜单是否在被遮挡时自动调整位置 默认值：`True`.
 
 - batchPropsNames (list of strings; optional):
-    需要纳入批属性监听的属性名  默认值：`[]`.
+    需要纳入批属性监听的属性名 默认值：`[]`.
 
 - batchPropsValues (dict; optional):
     批量监听与当前batchPropsNames对应的属性值.
 
 - buttonMode (boolean; default False):
-    下拉菜单触发元素是否渲染为按钮形式，children参数未设置时有效  默认值：`False`.
+    下拉菜单触发元素是否渲染为按钮形式，children参数未设置时有效 默认值：`False`.
 
 - buttonProps (dict; optional):
     针对下拉菜单触发元素的按钮形式进行进一步配置.
@@ -42,10 +42,10 @@ Keyword arguments:
         按钮css类名.
 
     - danger (boolean; optional):
-        按钮是否呈现危险样式  默认值：`False`.
+        按钮是否呈现危险样式 默认值：`False`.
 
     - size (a value equal to: 'small', 'middle', 'large'; optional):
-        按钮尺寸规格，可选项有`'small'`、`'middle'`、`'large'`  默认值：`'middle'`.
+        按钮尺寸规格，可选项有`'small'`、`'middle'`、`'large'` 默认值：`'middle'`.
 
     - style (dict; optional):
         按钮css样式.
@@ -64,10 +64,10 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - disabled (boolean; default False):
-    是否禁用组件功能  默认值：`False`.
+    是否禁用组件功能 默认值：`False`.
 
 - freePosition (boolean; default False):
-    是否开启自由位置模式  默认值：`False`.
+    是否开启自由位置模式 默认值：`False`.
 
 - freePositionClassName (string; optional):
     自由位置模式开启后，控制挂载位置对应css类名.
@@ -97,7 +97,7 @@ Keyword arguments:
     `menuItems` is a list of dicts with keys:
 
     - disabled (boolean; optional):
-        是否禁用节点  默认值：`False`.
+        是否禁用节点 默认值：`False`.
 
     - href (string; optional):
         节点链接地址.
@@ -106,7 +106,7 @@ Keyword arguments:
         节点前缀图标名称，与`iconRenderer`方式相关联，`'AntdIcon'`方式下同AntdIcon的icon参数，`'fontawesome'`方式下代表图标的css类名.
 
     - iconRenderer (a value equal to: 'AntdIcon', 'fontawesome'; optional):
-        前缀图标渲染方式，可选项有`'AntdIcon'`、`'fontawesome'`  默认值：`'AntdIcon'`.
+        前缀图标渲染方式，可选项有`'AntdIcon'`、`'fontawesome'` 默认值：`'AntdIcon'`.
 
     - isDivider (boolean; optional):
         节点是否渲染为分割线.
@@ -121,13 +121,13 @@ Keyword arguments:
         组件型，节点标题.
 
 - multiple (boolean; default False):
-    菜单项是否可多选  默认值：`False`.
+    菜单项是否可多选 默认值：`False`.
 
 - nClicks (number; default 0):
-    监听下拉菜单选项累计被点击次数  默认值：`0`.
+    监听下拉菜单选项累计被点击次数 默认值：`0`.
 
 - nonSelectableKeys (list of strings; optional):
-    设置不可选中项key值数组  默认值：`[]`.
+    设置不可选中项key值数组 默认值：`[]`.
 
 - overlayClassName (string | dict; optional):
     下拉菜单容器css类名，支持[动态css](/advanced-classname).
@@ -139,10 +139,10 @@ Keyword arguments:
     下拉菜单弹出方位，可选项有`'bottomLeft'`、`'bottomCenter'`、`'bottomRight'`、`'topLeft'`、`'topCenter'`、`'topRight'`.
 
 - popupContainer (a value equal to: 'parent', 'body'; default 'body'):
-    下拉菜单展开层锚定策略，可选项有`'parent'`、`'body'`  默认值：`'body'`.
+    下拉菜单展开层锚定策略，可选项有`'parent'`、`'body'` 默认值：`'body'`.
 
 - selectable (boolean; default False):
-    菜单项是否可选择  默认值：`False`.
+    菜单项是否可选择 默认值：`False`.
 
 - selectedKeys (list of strings; optional):
     设置或监听当前已选中菜单项key值.
@@ -154,10 +154,10 @@ Keyword arguments:
     下拉菜单触发元素标题内容，children参数未设置时有效.
 
 - trigger (a value equal to: 'click', 'hover'; default 'hover'):
-    下拉菜单显示触发方式，可选项有`'click'`、`'hover'`  默认值：`'hover'`.
+    下拉菜单显示触发方式，可选项有`'click'`、`'hover'` 默认值：`'hover'`.
 
 - visible (boolean; default False):
-    监听或设置下拉菜单是否展开  默认值：`False`.
+    监听或设置下拉菜单是否展开 默认值：`False`.
 
 - wrapperClassName (string | dict; optional):
     锚定元素父容器css类名.

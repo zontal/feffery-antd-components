@@ -158,7 +158,7 @@ Keyword arguments:
 - multiple (boolean; default False)
 
 - name (string; optional):
-    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名  缺省时会以id作为字段名.
+    用于在基于AntdForm的表单值自动搜集功能中，充当当前表单项的字段名 缺省时会以id作为字段名.
 
 - progressProps (dict; optional)
 
@@ -201,7 +201,7 @@ Keyword arguments:
 - withCredentials (boolean; default False)
 
 - withOriginFileObj (boolean; default False):
-    listUploadTaskRecord信息中是否记录浏览器原生originFileObj相关信息  默认值：`False`."""
+    listUploadTaskRecord信息中是否记录浏览器原生originFileObj相关信息 默认值：`False`."""
     _children_props = ['buttonContent', 'buttonIcon']
     _base_nodes = ['buttonContent', 'buttonIcon', 'children']
     _namespace = 'feffery_antd_components'

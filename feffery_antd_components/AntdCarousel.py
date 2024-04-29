@@ -32,12 +32,12 @@ Keyword arguments:
 - effect (a value equal to: 'scrollx', 'fade'; default 'scrollx')
 
 - infinite (boolean; default True):
-    是否启用无限循环切换  默认：True.
+    是否启用无限循环切换 默认：True.
 
 - key (string; optional)
 
 - lazyLoad (boolean; default False):
-    是否针对走马灯中的子项实施懒加载效果  默认：False.
+    是否针对走马灯中的子项实施懒加载效果 默认：False.
 
 - loading_state (dict; optional)
 

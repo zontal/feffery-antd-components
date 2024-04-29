@@ -16,7 +16,7 @@ Keyword arguments:
     组件唯一id.
 
 - align (string; default 'normal'):
-    子元素在交叉轴方向上的对齐方式，同css中的align-items  默认值：`'normal'`.
+    子元素在交叉轴方向上的对齐方式，同css中的align-items 默认值：`'normal'`.
 
 - aria-* (string; optional):
     `aria-*`格式属性通配.
@@ -28,13 +28,13 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - flex (string; default 'normal'):
-    同css中的flex  默认值：`'normal'`.
+    同css中的flex 默认值：`'normal'`.
 
 - gap (string | number | a value equal to: 'small', 'middle', 'large'; optional):
     子元素之间的间隙，可选项有`'small'`、`'middle'`、`'large'`，也可传入字符型css宽度，或数值型像素宽度.
 
 - justify (string; default 'normal'):
-    子元素在主轴方向上的对齐方式，同css中的justify-content  默认值：`'normal'`.
+    子元素在主轴方向上的对齐方式，同css中的justify-content 默认值：`'normal'`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
@@ -56,10 +56,10 @@ Keyword arguments:
     当前组件css样式.
 
 - vertical (boolean; default False):
-    是否使用垂直主轴  默认值：`False`.
+    是否使用垂直主轴 默认值：`False`.
 
 - wrap (string; default 'nowrap'):
-    子元素换行显示行为，同css中的flex-wrap  默认值：`'nowrap'`."""
+    子元素换行显示行为，同css中的flex-wrap 默认值：`'nowrap'`."""
     _children_props = []
     _base_nodes = ['children']
     _namespace = 'feffery_antd_components'

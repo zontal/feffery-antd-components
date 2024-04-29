@@ -15,24 +15,24 @@ Keyword arguments:
     `aria-*`格式属性通配.
 
 - autoSpin (boolean; default False):
-    是否在value处于回调更新中时，自动切换到loading状态  默认：False.
+    是否在value处于回调更新中时，自动切换到loading状态 默认：False.
 
 - bgColor (string; default 'transparent'):
-    设置二维码背景颜色  默认：'transparent'.
+    设置二维码背景颜色 默认：'transparent'.
 
 - bordered (boolean; default True):
-    设置二维码是否有边框  默认：True.
+    设置二维码是否有边框 默认：True.
 
 - className (string | dict; optional)
 
 - color (string; default '#000'):
-    设置二维码颜色  默认：'#000'.
+    设置二维码颜色 默认：'#000'.
 
 - data-* (string; optional):
     `data-*`格式属性通配.
 
 - errorLevel (a value equal to: 'L', 'M', 'Q', 'H'; default 'M'):
-    设置二维码纠错等级，可选的有'L'、'M'、'Q'、'H'  默认：'M'.
+    设置二维码纠错等级，可选的有'L'、'M'、'Q'、'H' 默认：'M'.
 
 - expires (number; optional):
     设置当前二维码过期时间，单位：秒，到期后二维码状态将会被强制更新为'expired'.
@@ -41,7 +41,7 @@ Keyword arguments:
     用于设置二维码中图片的地址（目前只支持图片地址）.
 
 - iconSize (number; default 40):
-    设置二维码中图片的大小  默认：40.
+    设置二维码中图片的大小 默认：40.
 
 - key (string; optional)
 
@@ -64,15 +64,15 @@ Keyword arguments:
     监听当前\"点击刷新\"按钮累计点击次数，仅在status为'expired'时有意义.
 
 - size (number; default 160):
-    设置二维码像素尺寸  默认：160.
+    设置二维码像素尺寸 默认：160.
 
 - status (a value equal to: 'active', 'expired', 'loading'; default 'active'):
-    设置二维码状态，可选的有'active'、'expired'、'loading'  默认：'active'.
+    设置二维码状态，可选的有'active'、'expired'、'loading' 默认：'active'.
 
 - style (dict; optional)
 
 - type (a value equal to: 'canvas', 'svg'; default 'canvas'):
-    设置渲染类型，可选的有'canvas'、'primary'  默认：'canvas'.
+    设置渲染类型，可选的有'canvas'、'primary' 默认：'canvas'.
 
 - value (string; optional):
     用于设置扫描后的文本."""

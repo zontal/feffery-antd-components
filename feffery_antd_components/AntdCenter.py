@@ -25,7 +25,7 @@ Keyword arguments:
     `data-*`格式属性通配.
 
 - inline (boolean; default False):
-    是否渲染为行内元素  默认值：`False`.
+    是否渲染为行内元素 默认值：`False`.
 
 - key (string; optional):
     对当前组件的`key`值进行更新，可实现强制重绘当前组件的效果.
